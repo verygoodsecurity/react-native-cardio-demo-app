@@ -28,12 +28,9 @@ export default function App() {
     VGSCardIOModule
       .scanCard()
       .redactCard({
-        vaultUrl: 'https://tntxwjvjals.SANDBOX.verygoodproxy.com',
+        vaultUrl: '<HTTPS link to the VGS Vault>',
         path: '/post',
         method: 'POST',
-        // headers: {
-        //   'Content-Type': 'application/json',
-        // }
       })
       .then(card => {
         storeCard(card)
