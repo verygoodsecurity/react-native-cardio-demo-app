@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "react": "16.8.6",
-    "react-native": "0.60.4",
+    "react-native": "0.62.0",
     "react-native-awesome-card-io": "git+https://github.com/verygoodsecurity/react-native-awesome-card-io.git"
   },
   "devDependencies": {
